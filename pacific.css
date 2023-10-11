@@ -4,7 +4,6 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 html {
     background-image: url(ptrbackground.jpg);
     background-size: contain;
-    background-color: #00569f;
     overflow: hidden;
 }
 
