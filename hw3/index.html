@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Dynamic Multiplication Table</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Dynamic Multiplication Table</h1>
+    <h2>Enter row and column values to create your table!</h2>
+
+    <form name="column and row">
+      <label>Minimum Row Value</label> <input type="text" id="minrow"/><br>
+      <label>Maximum Row Value</label> <input type="text" id="maxrow"/><br>
+      <p class="error rowerror"></p>
+
+      <label>Minimum Column Value</label> <input type="text" id="mincolumn"/><br>
+      <label>Maximum Column Value</label> <input type="text" id="maxcolumn"/><br>
+      <p class="error colerror"></p>
+
+      <button type="button" onclick = "createTable(event)">Submit</button>
+    </form>
+
+    <div id="tablearea">
+      <table id="mult_table"></table>
+    </div>
+
+  <script src="myScript.js"></script>
+</body>
+
+</html>
